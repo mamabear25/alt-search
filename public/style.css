@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    margin-top: 150px;
+    place-items: center;
+    background: url('https://wallpaperaccess.com/full/134196.jpg');
+}
+
+.container {
+    width: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mobile View */
+@media screen and (min-width:250px) and (max-width:900px) {
+  .container{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
